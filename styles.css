@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+    
+    }
+    
+    .heads {
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+
+.mainIcon{
+    height: 50px;
+    border-radius: 100%;
+}
+
+.dominar{
+    background-image: url("/images/dominatrix.jpg");
+    background-size: contain;
+    height: 800px; 
+    background-position: top; 
+    background-repeat: no-repeat;
+}
+
+.collection-image{
+    height: 300px;
+}
+.special-container{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.special{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.clouds{
+    height: 800px;
+}
+.web{
+    height: 300px;
+}
+.special-content-container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.about-text {
+    text-align: left;
+    padding: 20px;
+}
+.about-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
